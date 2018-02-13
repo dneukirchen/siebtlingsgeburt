@@ -5,9 +5,9 @@ $highlightedDomain = $params->get('highlight_domain');
     <table class="table">
         <thead>
         <tr>
-            <th class="ranking-position"><?php echo JText::_('MOD_MANHATTAN_DOMAIN_POSITION'); ?></th>
+            <th class="ranking-position"><?php echo JText::_('MOD_MANHATTAN_KEYWORD_POSITION'); ?></th>
             <th class="ranking-url"><?php echo JText::_('MOD_MANHATTAN_KEYWORD_URL'); ?></th>
-            <th class="ranking-position-trend"><?php echo JText::_('MOD_MANHATTAN_DOMAIN_POSITION_TREND'); ?></th>
+            <th class="ranking-position-trend"><?php echo JText::_('MOD_MANHATTAN_KEYWORD_POSITION_TREND'); ?></th>
         </tr>
         </thead>
         <tbody>
@@ -50,7 +50,7 @@ $highlightedDomain = $params->get('highlight_domain');
             </div>
         <?php endif; ?>
         <div class="last-updated">
-            <?php echo JText::_('MOD_MANHATTAN_DOMAIN_LAST_UPDATED'); ?>:
+            <?php echo JText::_('MOD_MANHATTAN_KEYWORD_LAST_UPDATED'); ?>:
             <?php echo JHtml::_('date', $data->request_info->datetime, 'd.m.Y H:i'); ?>
         </div>
     </div>
